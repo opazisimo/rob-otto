@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #726e75;
+  display: inline-block;
+  background-color: #726e75;
+}
+
+
+.fila {
+  height: 33px;
+}
+
+.green{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  background-color: #acf39d;
+  padding: 8px;
+}
+
+.crimson{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  background-color: #f05d5e;
+  padding: 8px;
+}
+
+#powerup{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  padding: 8px;
+}
+
+body {
+  background-color: #b6a39e;
+}
+
+h1{
+  color: #e6efe9;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.teclas {
+  width: 100%;
+  background-color: #726e75;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.press{
+  width: 40px;
+  height: 40px;
+  border: 3px solid #e6efe9;
+  margin-top: 5px;
+  color: #e6efe9;
+  font-weight: bolder;
+  padding: 3px;
+  background-color: #948b89;
+}
+
+.inbl{
+  display: inline-block;
+}
+
+.up{
+  margin: 0 auto;
+}
+
+.title{
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-bottom:0;
+}
+.verde{
+  color: #acf39d;
+}
+.crim{
+  color: #f05d5e;
+}
+
+.active-green{
+  background-color: #acf39d;
+  color:#726e75;
+}
+
+.active-crimson{
+  background-color: #f05d5e;
+}
+
+/* Ingreso de nombres */
+#nombres{
+  padding: 50px 0;
+}
+.nombre{
+  display: inline-block;
+  background-color: #726e75;
+  padding: 40px 20px;
+}
+.nombre input {
+  display: block;
+  border: 0;
+  background-color: #e6efe9;
+  padding: 5px;
+  text-align: center;
+}
+
+.uno{
+  color: #acf39d;
+}
+.dos{
+  color: #f05d5e;
+}
+.nombres{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.play{
+  margin: 30px 0;
+  background-color: #e6efe9;
+  color: #726e75;
+  padding: 20px 80px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.play:hover{
+  background-color: yellow;
+}
+
+.invisible{
+  display: none;
+  visibility: none;
+}
+
+.visible{
+  display: block;
+  visibility: visible;
+}
+
+#mensaje{
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.msjCrim{
+background-color: #f05d5e;
+color: #e6efe9;
+}
+.msjGreen{
+  background-color: #acf39d;
+  color:#726e75;
+}

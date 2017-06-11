@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>R o b - o t t o</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/a4f2ba36c5.js"></script>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <header class="text-center">
+    <h1>R o b - o t t o</h1>
+  </header>
+  <section id="nombres">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="nombre text-center pull-right">
+            <label for="player1" class="text-center">
+              <p class="uno nombres">Jugador 1</p>
+            </label>
+            <input type="text" placeholder="n o m b r e" name="player1" id="player1">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="nombre text-center">
+            <label for="player2" class="text-center">
+              <p class="dos nombres">Jugador 2</p>
+            </label>
+            <input type="text" placeholder="n o m b r e" name="player2" id="player2">
+          </div>
+        </div>
+        <div class="col-xs-12 text-center">
+          <button class="btn btn-lg play" id="jugar">
+            Jugar!
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="juego" class="invisible">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4">
+          <div id="game"></div>
+        </div>
+        <div class="col-xs-8">
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="instr text-center">
+                <div class="teclas">
+                  <div class="press caret-up up">
+                    <i class="fa fa-caret-up" aria-hidden="true"></i>
+                  </div>
+                  <div class="press caret-left inbl">
+                    <i class="fa fa-caret-left" aria-hidden="true"></i>
+                  </div>
+                  <div class="press caret-down inbl active-green">
+                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </div>
+                  <div class="press caret-right inbl">
+                    <i class="fa fa-caret-right" aria-hidden="true"></i>
+                  </div>
+                  <p class="title verde" id="nPlay1">a</p>
+                  <p class="verde" id="puntos1">Puntos: 0</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="instr text-center">
+                <div class="teclas">
+                  <div class="press letra-up up active-crimson">w</div>
+                  <div class="press letra-left inbl">a</div>
+                  <div class="press letra-down inbl">s</div>
+                  <div class="press letra-right inbl">d</div>
+                  <p class="title crim" id="nPlay2">a</p>
+                  <p class="crim" id="puntos2">Puntos: 0</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <p id="mensaje"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
